@@ -437,3 +437,13 @@ in English, they should see the message
     ```
 1. Add a row at the beginning of *Locales.js* for your new language. Follow the
 format of the existing rows.
+
+### Docker
+
+```cmd
+docker build -t wheel-spinner .
+```
+
+```cmd
+docker run -d -p 81:3000 --name wheel-spinner abydosone/wheel-spinner:v0.1
+```
