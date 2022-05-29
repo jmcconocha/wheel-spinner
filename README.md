@@ -440,10 +440,19 @@ format of the existing rows.
 
 ## Docker ##
 
+To build Docker image
+
 ```cmd
 docker build -t wheel-spinner .
 ```
+To run container
 
 ```cmd
 docker run -d -p 81:3000 --name wheel-spinner abydosone/wheel-spinner:v0.1
+```
+
+To pull from Docker Hub
+
+```cmd
+docker pull abydosone/wheel-spinner:v0.1
 ```
